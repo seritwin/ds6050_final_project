@@ -31,7 +31,7 @@ This project implements an end-to-end workflow for analyzing digitized pathology
 
 ## Data Availability
 
-⚠️ **Important Notice Regarding Data**
+**Important Notice Regarding Data**
 
 The imaging data and associated clinical information used in this project **cannot be made publicly available** due to patient privacy protections and compliance with healthcare data regulations (e.g., HIPAA). The datasets contain protected health information (PHI) derived from patient tissue samples.
 
