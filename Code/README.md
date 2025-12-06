@@ -81,7 +81,7 @@ This directory contains Jupyter notebooks for the histopathology metastasis dete
 
 1. **`ImageSplittingScript.ipynb`** — Extract tiles from whole slide images
 2. **`image_slide_processor.ipynb`** — Filter out uninformative tiles
-3. **`ResNetHE.ipynb`** — Train and evaluate the classification model
+3. **`ResNet_DenseNet_Executable.ipynb`** — Train and evaluate the classification model
 
 ## Directory Structure Expected
 
