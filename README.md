@@ -1,5 +1,7 @@
   # Histopathology Metastasis Detection
 
+A deep learning pipeline for detecting metastasis in histopathology whole slide images (WSI) using convolutional neural networks.
+
 # Metadata:
 ```yaml
   Authors: Serita Seright & Cameron Preasmyer
@@ -8,7 +10,6 @@
   Project Name: Metastasis Prediction
 ```
 
-A deep learning pipeline for detecting metastasis in histopathology whole slide images (WSI) using convolutional neural networks.
 
 ## Project Overview
 
