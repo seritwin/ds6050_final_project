@@ -26,6 +26,7 @@ This project implements an end-to-end workflow for analyzing digitized pathology
 ├── Code/
 │   ├── README.md
 |   ├── DenseNetAll_224x224_Executable
+|   ├── DenseNetAll_224x224_full_finetuningLeakyReLU
 │   ├── ImageSplittingScript.ipynb 
 │   ├── ResNet_DenseNet_Executable.ipynb
 │   └── ResNet_DenseNet_Executable.ipynb
@@ -51,8 +52,11 @@ Removes uninformative tiles (predominantly white/background regions) based on pi
 Trains a ResNet-based convolutional neural network for binary classification (metastasis vs. no metastasis) on H&E stained tissue tiles. Includes patient-level aggregation of predictions.
 
 ### 4. Classification Model('DenseNetAll_224x224_Executable.ipynb`)
-Trains a DenseNet-201 convolutional neural network for binary classification (metastasis vs. no metastasis) ib IHC-images. Includes patient-level aggregation of predictions.
-  - Various model ablations selected within the code in `Implement Model Tuning` code block.  Select the ablations layers prior to running the model. 
+Trains a DenseNet-201 convolutional neural network for binary classification (metastasis vs. no metastasis) on IHC-images. Includes patient-level aggregation of predictions.
+  - Various model ablations selected within the code in `Implement Model Tuning` code block.  Select the ablations layers prior to running the model.
+
+### 4. Classification Model('DenseNetAll_224x224_full_finetuningLeakyReLU.ipynb`)
+Trains a DenseNet-201 convolutional neural network with LeakyReLU for binary classification (metastasis vs. no metastasis) on IHC-image. 
 
 ## Requirements
 
