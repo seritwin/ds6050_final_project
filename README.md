@@ -26,7 +26,7 @@ This project implements an end-to-end workflow for analyzing digitized pathology
 │   ├── README.md
 │   ├── ImageSplittingScript.ipynb
 │   ├── image_slide_processor.ipynb
-│   └── ResNetHE.ipynb
+│   └── ResNet_DenseNet_Executable.ipynb
 ```
 
 ## Data Availability
@@ -45,7 +45,7 @@ Extracts fixed-size tiles from whole slide images using OpenSlide. Supports conf
 ### 2. Tile Filtering (`image_slide_processor.ipynb`)
 Removes uninformative tiles (predominantly white/background regions) based on pixel intensity thresholds, retaining only tiles with meaningful tissue content.
 
-### 3. Classification Model (`ResNetHE.ipynb`)
+### 3. Classification Model (`ResNet_DenseNet_Executable.ipynb`)
 Trains a ResNet-based convolutional neural network for binary classification (metastasis vs. no metastasis) on H&E stained tissue tiles. Includes patient-level aggregation of predictions.
 
 ## Requirements
@@ -72,15 +72,4 @@ The pipeline handles multiple immunohistochemistry stains:
 - **PBP**
 - **ANX**
 
-## License
-
-[Add your license here]
-
-## Contact
-
-[Add contact information here]
-
-## Acknowledgments
-
-[Add acknowledgments here]
    
