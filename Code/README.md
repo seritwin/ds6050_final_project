@@ -101,7 +101,7 @@ Project_Materials/
 └── notebooks/
     ├── ImageSplittingScript.ipynb
     ├── image_slide_processor.ipynb
-    └── ResNetHE.ipynb
+    └── ResNet_DenseNet_Executable.ipynb
 ```
 
 ## Notes
