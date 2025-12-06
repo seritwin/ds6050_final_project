@@ -22,7 +22,7 @@ This project implements an end-to-end workflow for analyzing digitized pathology
 
 ```
 ├── README.md
-├── notebooks/
+├── Code/
 │   ├── README.md
 │   ├── ImageSplittingScript.ipynb
 │   ├── image_slide_processor.ipynb
