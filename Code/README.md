@@ -41,7 +41,7 @@ This directory contains Jupyter notebooks for the histopathology metastasis dete
 
 ---
 
-### 3. `ResNetHE.ipynb`
+### 3. `ResNet_DenseNet_Executable.ipynb`
 
 **Purpose**: Deep learning model for metastasis classification.
 
