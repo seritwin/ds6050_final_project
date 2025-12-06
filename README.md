@@ -18,6 +18,7 @@ This project implements an end-to-end workflow for analyzing digitized pathology
 - **Whole Slide Image Processing**: Extraction of tiles from high-resolution .ndpi pathology slides
 - **Data Preprocessing**: Automated filtering of uninformative (background) tiles
 - **Deep Learning Classification**: ResNet-based binary classification model for metastasis detection
+- **Deep Learning Classification**: DenseNet-based binary classification model for metastasis detection
 
 ## Repository Structure
 
