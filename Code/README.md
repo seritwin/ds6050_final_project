@@ -52,7 +52,7 @@ This directory contains Jupyter notebooks for the histopathology metastasis dete
 - Handles normalization of patient codes for robust matching
 
 **Model Architecture**:
-- ResNet-based convolutional neural network (transfer learning)
+- ResNet-based/DenseNet-based convolutional neural network (transfer learning)
 - Binary classification: metastasis (1) vs. no metastasis (0)
 - Input size: 256×256 pixels
 
